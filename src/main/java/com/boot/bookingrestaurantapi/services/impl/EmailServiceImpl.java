@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class EmailServiceImpl implements EmailService {
 
-    @Autowired
-    private JavaMailSender javaMailSender;
+    /*@Autowired
+    private JavaMailSender javaMailSender;*/
 
     @Override
     public String processSendEmail(String receiver, String subject, String templateCode, String currentName) throws BookingException {
